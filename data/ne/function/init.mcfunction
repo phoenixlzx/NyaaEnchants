@@ -3,6 +3,7 @@ scoreboard players set #-3648 ne -3648
 scoreboard players set #10000 ne 10000
 
 scoreboard objectives add ne_table_interact dummy
+scoreboard objectives add ne_timer dummy
 
 execute unless score #max_breaks ne matches 1.. run scoreboard players set #max_breaks ne 3
 
